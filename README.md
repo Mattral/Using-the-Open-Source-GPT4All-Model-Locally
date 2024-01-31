@@ -117,6 +117,7 @@ denser. Then these drops hit surfaces like land or trees etc., which are conside
 temperature & humidity of respective locations or weather conditions at hand.
 ```
 
+
 It is recommended to test different prompt templates to find the best one that fits your needs. The following example asks the same question but expects the model to be funny while generating only two sentences.
 
 ```
