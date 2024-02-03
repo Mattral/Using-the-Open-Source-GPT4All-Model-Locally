@@ -135,6 +135,6 @@ Answer: Let's answer in two sentence while being funny. 1) When rain falls, umbr
 ```
 
 ## Conclusion
-We learned about open-source large language models and how to load one in your own PC on Intel® CPU and use the prompt template to ask questions. We also discussed the quantization process that makes this possible. In the next lesson, we will dive deeper and introduce more models while comparing them for different use cases.
+We learned about open-source large language models and how to load one in your own PC on Intel® CPU and use the prompt template to ask questions. We also discussed the quantization process that makes this possible. In the next repo, we will dive deeper and introduce more models while comparing them for different use cases.
 
-In the next lesson, you’ll see a comprehensive guide to the models that can be used with LangChain, along with a brief description of them.
+In the next repo, you’ll see a comprehensive guide to the models that can be used with LangChain, along with a brief description of them.
