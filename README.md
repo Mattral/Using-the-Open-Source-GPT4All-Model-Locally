@@ -6,6 +6,7 @@ The GPT-family models are undoubtedly powerful. However, access to these models'
 Furthermore, the available APIs are not free to build on top of. These limitations can restrict the ongoing research on Large Language Models (LLMs). The alternative open-source models (like GPT4All) aim to overcome these obstacles and make the LLMs more accessible to everyone.
 
 ## How GPT4All works?
+
 It is trained on top of Facebook’s LLaMA model, which released its weights under a non-commercial license. Still, running the mentioned architecture on your local PC is impossible due to the large (7 billion) number of parameters. The authors incorporated two tricks to do efficient fine-tuning and inference.
 
 The main contribution of GPT4All models is the ability to run them on a CPU. Testing these models is practically free because the recent PCs have powerful Central Processing Units. The underlying algorithm that helps with making it happen is called Quantization. It basically converts the pre-trained model weights to 4-bit precision using the GGML format.  So, the model uses fewer bits to represent the numbers. There are two main advantages to using this technique:
