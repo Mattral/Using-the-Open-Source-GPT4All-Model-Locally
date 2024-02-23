@@ -1,6 +1,7 @@
 # Using-the-Open-Source-GPT4All-Model-Locally
 
 ## Introduction
+
 The GPT-family models are undoubtedly powerful. However, access to these models' weights and architecture is restricted, and even if one does have access, it requires significant resources to perform any task. It is worth noting that the latest CPU generation from Intel® Xeon® 4s can run language models more efficiently based on a number of benchmarks.
 
 Furthermore, the available APIs are not free to build on top of. These limitations can restrict the ongoing research on Large Language Models (LLMs). The alternative open-source models (like GPT4All) aim to overcome these obstacles and make the LLMs more accessible to everyone.
