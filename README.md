@@ -1,4 +1,3 @@
-
 # Using-the-Open-Source-GPT4All-Model-Locally
 
 ## Introduction
@@ -89,6 +88,7 @@ The template string defines the interaction’s overall structure. In our case, 
 - Answer: Based on our preference, it sets a behavior or style for the model’s generation process. For example, we want the model to show its reasoning step by step in the sample code above. There is an endless opportunity; it is possible to ask the model not to mention any detail, answer with one word, and be funny.
 
   Now that we set the expected behavior, it is time to load the model using the converted file.
+
 
 ```
 callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
